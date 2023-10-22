@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite123456"> 
+  <test thread-count="2" name="ChromeTest"  parallel="classes" >
+	  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+	 <class name="testNgsauceDemo.VerifyCheckoutPage"/>
+	 <class name="testNgsauceDemo.VerifyAddtocart"/>
+    </classes>
+  </test> <!-- Test345678 -->
+  <test thread-count="2" name="FirefoxTest"  parallel="classes" >
+	  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+           
+            <class name="testNgsauceDemo.VerifyCheckoutPage"/>
+            <class name="testNgsauceDemo.VerifyAddtocart"></class>
+
+    </classes>
+   </test> <!-- Test345678 -->
+
+ </suite> <!-- Suite123456 -->
