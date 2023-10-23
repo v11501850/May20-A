@@ -16,14 +16,7 @@ public class Browser {
 		
 	}
 	
-	public static WebDriver launchFirefox()
-	{
-		System.setProperty("Webdriver.chrome.driver", "src\\test\\BrowserFiles\\Firefox Installer.exe");
-		WebDriver driver=new FirefoxDriver();
-		
-		return driver;
-		
-	}
+	
 	
 
 }
